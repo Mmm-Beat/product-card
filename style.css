@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 78px;
+  text-align: center;
+  margin: 0;
+  color: #515076;
+}
+
+.products-list {
+  list-style: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.product-text, 
+.compound{
+  color: #515076;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.product-purpose {
+    font-size: 12px;
+    line-height: 24px;
+    font-family: Montserrat, sans-serif;
+    color: #A5A3B9;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li li {
+    list-style: circle;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.main-text {
+    color:#515076;
+    font-weight: 700;
+}
