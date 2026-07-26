@@ -47,3 +47,11 @@ ul li li {
     color:#515076;
     font-weight: 700;
 }
+
+.card-background {
+    background-color: #F7F7FA;
+    padding: 25px;
+    margin-bottom: 20px;
+    width: 500px;
+    border-radius: 10px;
+}
