@@ -27,7 +27,7 @@ console.log(car.owner.surname);
 // Создал объект автомобиля и добавил владельца из объекта person согласно 4 пункту задания
 
 function addMaxSpeed(carObject) {
-  if (!carObject.hasOwnProperty("maxSpeed")) {
+  if (!carObject?.maxSpeed) {
     carObject.maxSpeed = 200;
   }
 }
@@ -36,9 +36,9 @@ console.log(car);
 // Выполнил задания с использованием данных 4 пункта согласно 5 пункту задания
 
 function getProperty(person, key) {
-  console.log(person[key]);
+  return person[key];
 }
-getProperty(person, "name");
+console.log(getProperty(person, "name"));
 // Создал функцию для вывода значения, согласно 6 пункту задания
 
 const starkInventory = [
@@ -123,13 +123,12 @@ console.log(marvelComics);
 const allBooks = [...arabicBooks, ...marvelComics];
 // Объединил 2 массива 8 и 9 пункта, с помощъю spread-оператора согласно 9 пункту задания
 
-function checkRareStatus(allBooks) {
+function addRareStatus(allBooks) {
   return allBooks.map((book) =>
     book.year > 2000 ? (book.isRare = true) : (book.isRare = false),
   );
 }
 
-checkRareStatus(allBooks);
-
-console.log(allBooks);
+const allBookWithRarity = addRareStatus(allBooks);
+console.log(allBookWithRarity);
 // Добавил свойство isRare с помощью map() согласно 10 пункту задания
