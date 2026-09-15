@@ -17,11 +17,17 @@ const films = [
   "The Incredible Hulk",
 ];
 
-console.log(films.includes("Doctor Strange"));
+function isFilmExists(film) {
+  if (typeof film !== "string") {
+    return "Некорректные входные параметры";
+  }
+  return films.includes(film);
+}
+console.log(isFilmExists("Avatar"));
 
 function reverseArray(array) {
   return array.reverse();
-};
+}
 
 console.log(reverseArray(films));
 console.log(reverseArray(numbers));
