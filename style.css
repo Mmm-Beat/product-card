@@ -40,6 +40,15 @@ body {
   margin: 0 auto;
 }
 
+#product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  width: 1110px;
+  margin: 0 auto;
+}
+
 .product-card {
   background-color: #F7F7FA;
   padding: 25px;
