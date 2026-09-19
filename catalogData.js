@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    image: "images/hydrating-mousse.png",
+    image: "hydrating-mousse.png",
     name: "Увлажняющий мусс",
     purpose: "для нормальной кожи",
     description: "Глубоко увлажняют кожу лица, оставляя её мягкой и гладкой.",
@@ -15,7 +15,7 @@ export const products = [
   },
   {
     id: 2,
-    image: "images/moisturizing-mask.png",
+    image: "moisturizing-mask.png",
     name: "Увлажняющая маска",
     purpose: "для нормальной кожи",
     description: "Способствует удерживанию влаги в верхних слоях кожи.",
@@ -25,7 +25,7 @@ export const products = [
   },
   {
     id: 3,
-    image: "images/cleansing-gel.png",
+    image: "cleansing-gel.png",
     name: "Гель для умывания",
     purpose: "для нормальной кожи",
     description: "Интенсивно очищает, не повреждает защитный барьер кожи.",
@@ -39,7 +39,7 @@ export const products = [
   },
   {
     id: 4,
-    image: "images/gift-set-1.png",
+    image: "gift-set-1.png",
     name: "Подарочный набор №1",
     purpose: "для нормальной кожи",
     description: "Набор, состоящий из увлажняющего крема и маски.",
@@ -49,7 +49,7 @@ export const products = [
   },
   {
     id: 5,
-    image: "images/gift-set-5.png",
+    image: "gift-set-5.png",
     name: "Подарочный набор №5",
     purpose: "для нормальной кожи",
     description:

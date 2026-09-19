@@ -4,6 +4,7 @@ console.log(products);
 
 const productTemplate = document.querySelector('#product-template');
 const productList = document.querySelector('#product-list');
+const PATH = /images/
 
 function getCardsCount() {
   const answer = prompt('Сколько карточек отобразить? От 1 до 5');
@@ -19,7 +20,7 @@ const count = getCardsCount();
 function showCards(cards) {
   cards.forEach(product => {
   const productClone = productTemplate.content.cloneNode(true)
-  productClone.querySelector('.product-card__image').src = product.image
+  productClone.querySelector('.product-card__image').src = PATH + product.image
   productClone.querySelector('.product-card__purpose').textContent = product.purpose
   productClone.querySelector('.product-card__title').textContent = product.name
   productClone.querySelector('.product-card__description').textContent = product.description
